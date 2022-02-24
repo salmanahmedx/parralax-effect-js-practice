@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+
+}
+
+h1 {
+    font-size: 12rem;
+    color: white;
+    position: relative;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
